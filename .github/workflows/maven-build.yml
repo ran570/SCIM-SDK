@@ -27,4 +27,4 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
       - name: Run Tests
-        run: .github/workflows/run-tests.sh
+        run: mvn clean -q test -Dmaven.javadoc.skip=true -Dgpg.skip
