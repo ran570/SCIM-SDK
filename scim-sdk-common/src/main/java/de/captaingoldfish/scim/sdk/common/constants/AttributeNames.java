@@ -373,6 +373,7 @@ public final class AttributeNames
    */
   public static class BEEX
   {
+
     public static final String BUSINESS_UNIT = "businessUnit";
   }
 }
