@@ -1,8 +1,14 @@
 name: Build
 on:
   push:
+    paths-ignore:
+      - ".github/**"
+      - "*.md"
     branches: [ master ]
   pull_request:
+    paths-ignore:
+      - ".github/**"
+      - "*.md"
     branches: [ master ]
 jobs:
   test:
