@@ -6,7 +6,7 @@
     <artifactId>scim-sdk-parent</artifactId>
 
     <packaging>pom</packaging>
-    <version>1.8.2-SNAPSHOT</version>
+    <version>1.8.2-BEEX</version>
 
     <name>SCIM SDK</name>
     <description>A full SCIM 2.0 open source implementation</description>
@@ -51,10 +51,7 @@
 
     <modules>
         <module>scim-sdk-server</module>
-        <module>scim-sdk-client</module>
         <module>scim-sdk-common</module>
-        <module>scim-for-keycloak</module>
-        <module>samples</module>
     </modules>
 
     <properties>

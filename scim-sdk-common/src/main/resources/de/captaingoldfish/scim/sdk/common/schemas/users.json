@@ -802,6 +802,17 @@
           "caseExact": false
         }
       ]
+    },
+    {
+      "name": "businessUnit",
+      "type": "string",
+      "description": "Playtika's internl businessUnit division.\n Customized for BeexOS",
+      "mutability": "immutable",
+      "returned": "default",
+      "uniqueness": "none",
+      "multiValued": false,
+      "required": false,
+      "caseExact": false
     }
   ],
   "meta": {

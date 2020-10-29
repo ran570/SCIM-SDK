@@ -368,6 +368,13 @@ public final class AttributeNames
     public static final String OP = "op";
   }
 
+  /**
+   * Custom attributes for Beex OS
+   */
+  public static class BEEX
+  {
+    public static final String BUSINESS_UNIT = "businessUnit";
+  }
 }
 
 
