@@ -27,4 +27,4 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
       - name: Run Tests
-        run: .github/workflows/run_tests.sh
+        run: .github/workflows/run-tests.sh
