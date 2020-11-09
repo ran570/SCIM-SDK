@@ -806,8 +806,8 @@
     {
       "name": "businessUnit",
       "type": "string",
-      "description": "Playtika's internl businessUnit division.\n Customized for BeexOS",
-      "mutability": "immutable",
+      "description": "Playtika's internal businessUnit division.\n Customized for BeexOS",
+      "mutability": "readWrite",
       "returned": "default",
       "uniqueness": "none",
       "multiValued": false,
